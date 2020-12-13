@@ -1,0 +1,501 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 20px;
+    
+}
+.navigation {
+    background-color: #0D7A62;
+    height: 119px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    cursor: pointer;
+}
+.nav {
+    text-decoration: none;
+    padding: 20px;
+    align-items: right;
+    display: inline-block;
+    cursor: pointer;
+}
+.top {
+    font-size: 20;
+    position: absolute;
+    right: 20px;
+}
+.hero {
+    background-color: #F1D3CD;
+}
+.hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+h2 {
+    font-size: 120px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+    z-index: 9999;
+}
+.hero p {
+    font-size: 20px;
+    font-family: 'poppins', arial, sans-serif;
+    color:  #0D7A62;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.intro {
+    background-color: #0D7A62; 
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    padding: 50px;
+}
+.intro h3 {
+    font-size: 70px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #F1D3CD;
+    font-weight: bold;
+}
+.intro p {
+    font-size: 20px;
+    font-family: 'poppins', arial, sans-serif;
+    color:  #F1D3CD;
+}
+.detail {
+    background-color: #F1D3CD;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 5fr 1fr 6fr;
+}
+h3 {
+    font-size: 70px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.text p {
+    font-size: 15px;
+    font-family: 'poppins', arial, sans-serif;
+}
+.pictures img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.research {
+    margin-top: 100px;
+}
+.definition {
+    margin-top: 250px;
+}
+.ideation {
+    margin-top: 100px;
+}
+.prototyping {
+    margin-top: 200px;
+}
+.testing {
+    margin-top: 250px;
+}
+.finish {
+    margin-top: 100px;
+}
+.allScreens {
+    background-color: #F1D3CD;
+}
+.last {
+    background-color: #0D7A62; 
+    display: flex;
+    align-items: center;
+    height: 71px;
+    cursor: pointer;
+    padding-left: 50px;
+}
+.last a {
+    margin-left: 20px;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 30px;
+    color: #F1D3CD;
+}
+.footer {
+    height: 145px;
+    background-color: black;
+    color: #F1D3CD;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 20px;
+}
+.footer a {
+    padding-left: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600){
+    .intro {
+        background-color: #0D7A62; 
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px;
+    }
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 20px;
+    
+}
+.navigation {
+    background-image: url("../images/Nav\ Blur.png");
+    height: 119px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    cursor: pointer;
+}
+.nav {
+    text-decoration: none;
+    padding: 20px;
+    align-items: right;
+    display: inline-block;
+    cursor: pointer;
+}
+.top {
+    font-size: 20;
+    position: absolute;
+    right: 20px;
+}
+.heroimg {
+    background-color: #0D7A62;
+    height: 780px;
+    position: relative;
+}
+.headline {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-size: 150px;
+    width: 710px;
+    z-index: 100;
+}
+.headshot img {
+    position: absolute;
+    right: 380px;
+    top: 100px;
+}
+.front {
+    z-index: 10;
+    transition: opacity .5s linear;
+    cursor: pointer;
+}
+.headshot:hover .front {
+    opacity: 0;
+}
+.boldtext, .subtext {
+    width: 321px;
+    color: #F1D3CD;
+}
+.boldtext {
+    position: absolute;
+    right: 50px;
+    top: 250px;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 20px;
+}
+.subtext {
+    position: absolute;
+    right: 50px;
+    top: 300px;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 20px;
+}
+.projects {
+    background-color: #F1D3CD;
+    height: 1801px;
+    position: relative;
+}
+.project1 {
+    display: block;
+    position: absolute;
+    height: 600px;
+    top: 44px;
+    left: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+.project1:hover h2{
+    color: #0D7A62;
+}
+.project2:hover h2{
+    color: #0D7A62;
+}
+.project3:hover h2{
+    color: #0D7A62;
+}
+.project2 {
+    display: block;
+    position: absolute;
+    height: 600px;
+    top: 631px;
+    left: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+.project3 {
+    display: block;
+    position: absolute;
+    height: 600px;
+    top: 1217px;
+    left: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+.project1 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.project1 .front {
+    z-index: 10;
+    transition: opacity .5s linear;
+    cursor: pointer;
+}
+.project1:hover .front {
+    opacity: 0;
+}
+.project2 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.project2 .front {
+    z-index: 10;
+    transition: opacity .5s linear;
+    cursor: pointer;
+}
+.project2:hover .front {
+    opacity: 0;
+}
+.project3 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.project3 .front {
+    z-index: 10;
+    transition: opacity .5s linear;
+    cursor: pointer;
+}
+.project3:hover .front {
+    opacity: 0;
+}
+.project img {
+    position: absolute;
+    left: 50px;
+}
+.title1 {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    font-size: 120px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+.title {
+    position: absolute;
+    right: 0px;
+    top: 170px;
+    font-size: 120px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+.seeallprojects {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 71px;
+    cursor: pointer;
+
+}
+.seeallprojects:hover a{
+    color: #0D7A62;
+}
+.seeallprojects a {
+    color: #F1D3CD;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.skillsihave {
+    height: 955px;
+    background-color: #0D7A62;
+    position: relative;
+}
+.tittle3 {
+    font-size: 120px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    display: inline-block;
+    position: absolute;
+    bottom: 250px;
+    left: 50px;
+}
+.tittle4 {
+    font-size: 120px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    display: inline-block;
+    position: absolute;
+    bottom: 120px;
+    left: 50px;
+}
+.skillsihave img {
+    position: absolute;
+    top: 200px;
+    right: 250px;
+}
+.skillsihave .front {
+    z-index: 10;
+    transition: opacity .5s linear;
+    cursor: pointer;
+}
+
+.skillsihave:hover .front {
+    opacity: 0;
+}
+.footer {
+    height: 145px;
+    background-color: black;
+    color: #F1D3CD;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 20px;
+}
+.footer a {
+    padding-left: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+.star1 {
+    position: absolute;
+    left: 200px;
+}
+.star2 {
+    position: absolute;
+    right: 1px;
+    bottom: -346px;
+}
+.star3 {
+    position: absolute;
+    top: 500px;
+    left: 1050px;
+}
+.star4 {
+    position: absolute;
+    top: 1140px;
+}
+.star5 {
+    position: absolute;
+    top: 1000px;
+    right: 0px;
+}
+.star6 {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.star7 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.container {
+    width: 1340px;
+}
+.row {
+    width: 100%;
+}
+.detail1 {
+    background-color: #F1D3CD;
+}
+.col-sm-7 img {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GO_UserFlow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 100px;
+}
+.lofi {
+    padding-left: 200px;
+}
+.proto {
+    padding-top: 200px;
+}
+.test {
+    padding-top: 200px;
+}
+.finish {
+    padding-top: 50px;
+}
+.GO_all {
+    background-color:  #F1D3CD;
+    padding-top: 100px;
+}
+.next {
+    background-color: #0D7A62; 
+    display: flex;
+    align-items: center;
+    height: 71px;
+    cursor: pointer;
+    padding-left: 50px;
+    text-align: right;
+}
+.next a {
+    margin-right: 20px;
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 30px;
+    color: #F1D3CD;
+    position: absolute;
+    right: 98px;
+}
+.next img {
+    position: absolute;
+    right: 50px;
+}
+    
