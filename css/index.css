@@ -487,6 +487,9 @@ h3 {
     justify-content: center;
     height: 71px;
     cursor: pointer;
+    width: 1440px;
+    margin-left:auto;
+    margin-right:auto;
 
 }
 .seeallprojects:hover a{
@@ -812,4 +815,65 @@ li:hover {
     position: absolute;
     top: 1200px;
     left: 580px;
+}
+/* Safety Pin */
+
+.safetypinhero {
+    height: 800px;
+    background-color: #F1D3CD;
+    width: 1440px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url('Safety Pin Head.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.safetypinhero p {
+    font-size: 20px;
+    font-family: 'poppins', arial, sans-serif;
+    color:  #0D7A62;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.safetypinhero h2 {
+        font-size: 120px;
+        font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+        margin-left: 50px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-top: 597px;
+        font-weight: bold;
+        color: black;
+        z-index: 9999;
+   }
+.safetypinDetail {
+   width: 1330px;
+   margin: 0 auto;
+}
+.safetypinResearch {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 54% 46%;
+    grid-gap:20px;
+}
+.paragraphs {
+    font-size: 15px;
+    font-family: 'poppins', arial, sans-serif;
+    color: black;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+.safetypinResearch h3 {
+    grid-column: 1;
+    align-self: center;
+}
+.paragraphs {
+    grid-column: 2;
 }
