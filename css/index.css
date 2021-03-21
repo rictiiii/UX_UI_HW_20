@@ -370,27 +370,32 @@ h3 {
     opacity: 0;
 }
 .boldtext, .subtext {
-    width: 20%;
     color: #F1D3CD;
 }
 .boldtext {
     position: relative;
-    top: 20%;
+    /* top: 20%; */
     font-family: 'Poppins', arial, sans-serif;
     font-size: 20px;
     text-align: center;
-    left: 70%;
+    /* left: 70%; */
 }
 .subtext {
     position: relative;
     text-align: justify;
     font-family: 'Poppins', arial, sans-serif;
-    left: 50%;
+    /* left: 50%;
     transform: translateX(100%);
-    top: 20%;
+    top: 20%; */
     font-size: 1.5rem;
     text-justify: inter-word;
     line-height: 1.6;
+}
+.about_me_text{
+    top: 20%;
+    position: relative;
+    width: 30%;
+    left: 60%;
 }
 .projects {
     background-color: #F1D3CD;
@@ -435,7 +440,7 @@ h3 {
 }
 .title1 {
     position: absolute;
-    right: 4rem;
+    right: 0;
     top: 40px;
     font-size: 120px;
     font-family: 'Playfair Display', 'Times New Roman', Times, serif;
@@ -443,7 +448,7 @@ h3 {
 }
 .title {
     position: absolute;
-    right: 4rem;
+    right: 0;
     top: 170px;
     font-size: 120px;
     font-family: 'Playfair Display', 'Times New Roman', Times, serif;
@@ -735,13 +740,12 @@ li:hover {
 
 
 .dog_about .about_cont_text{
-    width: 25%;
-    margin-left: 10%;
+    width: 40%;
 }
 
 .plant_about .about_cont_text{
-    width: 25%;
-    margin-right: 10%;
+    width: 35%;
+    
 }
 .plants {
     width: 40%;
@@ -774,7 +778,7 @@ li:hover {
     width: 100%;
     margin-left:auto;
     margin-right:auto;
-    background-image: url('Safety Pin Head.png');
+    background-image: url('SafetyPinHead.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -829,6 +833,10 @@ li:hover {
     grid-column: 2;
 }
 
+.laptop-img{
+    margin-bottom: -10%;
+    margin-top: 10%;
+}
 
 
 
@@ -861,15 +869,33 @@ li:hover {
 
 }
 
+@media only screen and (min-width: 1366px){
+.safetypinhero {
+    height: 800px;
+    background-color: #F1D3CD;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('SafetyPinHead.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-top: -1px;
+}
+
+
+}
+
+
 @media only screen and (max-width: 1366px) and (min-width: 992px){
-    .subtext {
+    /* .subtext {
         left: 40%;
         width: 25%;
     }
 
     .boldtext {
         left: 65%;
-    }
+    } */
     
 
 }
@@ -899,14 +925,14 @@ li:hover {
 
     
 
-    .subtext {
+    /* .subtext {
         width: 30%;
         left: 30%;
     }
 
     .boldtext {
         left: 60%;
-    }
+    } */
 
     .dog_about img{
         width: 50%;
@@ -916,7 +942,7 @@ li:hover {
     }
 
     .dog_about .about_cont_text {
-        width: 40%;
+        width: 50%;
     }    
 
     .nav {
@@ -933,10 +959,22 @@ li:hover {
     @media only screen and (max-width: 768px){
         
 
+        .about_me_text {
+            top: 85%;
+            position: relative;
+            width: 100%;
+            left: 0;
+        }
+
         .logo img{
             width: 200px;
         }
 
+        .laptop-img {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        
         .nav {
             padding-bottom: 0;
         }
