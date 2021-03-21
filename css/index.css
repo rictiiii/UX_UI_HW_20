@@ -526,6 +526,7 @@ h3 {
 .star1 {
     position: absolute;
     left: 200px;
+    top: 20px;
     pointer-events: none;
 }
 .star2 {
